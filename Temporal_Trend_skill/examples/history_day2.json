@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-04-16_slam",
+  "emerging_communities": [
+    {
+      "community_id": "H0",
+      "size": 2,
+      "top_categories": [
+        {"category": "cs.RO", "count": 2}
+      ],
+      "representative_papers": ["p1", "p2"],
+      "avg_published_at": "2026-04-16"
+    },
+    {
+      "community_id": "H2",
+      "size": 1,
+      "top_categories": [
+        {"category": "cs.CV", "count": 1}
+      ],
+      "representative_papers": ["p3"],
+      "avg_published_at": "2026-04-16"
+    }
+  ],
+  "top_bridges": [],
+  "warnings": []
+}

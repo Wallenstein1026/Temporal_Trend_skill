@@ -1,0 +1,83 @@
+{
+  "run_id": "2026-04-18_slam",
+  "network_stats": {
+    "paper_similarity": {
+      "n_nodes": 9,
+      "n_edges": 9,
+      "density": 0.25,
+      "n_connected_components": 3,
+      "avg_degree": 2.0
+    }
+  },
+  "communities": {
+    "paper_similarity": {
+      "louvain": {
+        "assignments": {
+          "p1": 0,
+          "p2": 0,
+          "p3": 0,
+          "p4": 0,
+          "p5": 1,
+          "p6": 1,
+          "p7": 1,
+          "p8": 2,
+          "p9": 2
+        },
+        "n_communities": 3,
+        "modularity": 0.42
+      }
+    }
+  },
+  "paper_sim_edges": [
+    {"source": "p1", "target": "p2", "weight": 0.91},
+    {"source": "p2", "target": "p3", "weight": 0.88},
+    {"source": "p3", "target": "p4", "weight": 0.87},
+    {"source": "p4", "target": "p5", "weight": 0.61},
+    {"source": "p5", "target": "p6", "weight": 0.9},
+    {"source": "p6", "target": "p7", "weight": 0.89},
+    {"source": "p7", "target": "p8", "weight": 0.55},
+    {"source": "p8", "target": "p9", "weight": 0.93}
+  ],
+  "emerging_communities": [
+    {
+      "community_id": "C0",
+      "size": 4,
+      "top_categories": [
+        {"category": "cs.RO", "count": 3},
+        {"category": "cs.CV", "count": 1}
+      ],
+      "representative_papers": ["p1", "p2", "p3", "p4"],
+      "avg_published_at": "2026-04-18"
+    },
+    {
+      "community_id": "C1",
+      "size": 3,
+      "top_categories": [
+        {"category": "cs.RO", "count": 2},
+        {"category": "cs.AI", "count": 1}
+      ],
+      "representative_papers": ["p5", "p6", "p7"],
+      "avg_published_at": "2026-04-18"
+    },
+    {
+      "community_id": "C2",
+      "size": 2,
+      "top_categories": [
+        {"category": "cs.LG", "count": 2},
+        {"category": "q-bio.BM", "count": 1}
+      ],
+      "representative_papers": ["p8", "p9"],
+      "avg_published_at": "2026-04-18"
+    }
+  ],
+  "top_bridges": [
+    {
+      "name_norm": "alice chen",
+      "bridging_score": 0.31,
+      "betweenness": 0.42,
+      "cross_community_edge_ratio": 0.6,
+      "representative_papers": ["p4", "p5"]
+    }
+  ],
+  "warnings": []
+}

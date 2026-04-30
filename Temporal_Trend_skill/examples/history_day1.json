@@ -1,0 +1,35 @@
+{
+  "run_id": "2026-04-17_slam",
+  "emerging_communities": [
+    {
+      "community_id": "H0",
+      "size": 2,
+      "top_categories": [
+        {"category": "cs.RO", "count": 2},
+        {"category": "cs.CV", "count": 1}
+      ],
+      "representative_papers": ["p1", "p2"],
+      "avg_published_at": "2026-04-17"
+    },
+    {
+      "community_id": "H1",
+      "size": 3,
+      "top_categories": [
+        {"category": "cs.RO", "count": 2},
+        {"category": "cs.AI", "count": 1}
+      ],
+      "representative_papers": ["p5", "p6", "p7"],
+      "avg_published_at": "2026-04-17"
+    }
+  ],
+  "top_bridges": [
+    {
+      "name_norm": "alice chen",
+      "bridging_score": 0.18,
+      "betweenness": 0.21,
+      "cross_community_edge_ratio": 0.4,
+      "representative_papers": ["p5"]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,221 @@
+{
+  "run_id": "2026-04-18_slam",
+  "window_days": 7,
+  "community_trends": [
+    {
+      "community_id": "C2",
+      "size": 2,
+      "lifecycle_event": "birth",
+      "lifecycle_evidence": "No sufficiently similar historical community was found for C2.",
+      "top_categories": [
+        {
+          "category": "cs.LG",
+          "count": 2
+        },
+        {
+          "category": "q-bio.BM",
+          "count": 1
+        }
+      ],
+      "representative_papers": [
+        {
+          "paper_id": "p8",
+          "title": "Graph Diffusion for Protein Design",
+          "arxiv_id": "2604.10008"
+        },
+        {
+          "paper_id": "p9",
+          "title": "Molecular Representation Learning",
+          "arxiv_id": "2604.10009"
+        }
+      ],
+      "matched_history": {
+        "run_id": null,
+        "community_id": null,
+        "similarity": 0.0,
+        "size": null
+      },
+      "growth_7d": null,
+      "novelty_score": 1.0,
+      "bridge_pressure": 0.228216,
+      "recency_score": 0.85,
+      "emergence_score": 0.630643,
+      "label": "emerging",
+      "explanation": "Community C2 has no historical size baseline; no matched prior community. Novelty=1.00, bridge_pressure=0.23, emergence_score=0.63."
+    },
+    {
+      "community_id": "C0",
+      "size": 4,
+      "lifecycle_event": "merge",
+      "lifecycle_evidence": "C0 resembles 4 historical communities, suggesting a merge.",
+      "top_categories": [
+        {
+          "category": "cs.RO",
+          "count": 3
+        },
+        {
+          "category": "cs.CV",
+          "count": 1
+        }
+      ],
+      "representative_papers": [
+        {
+          "paper_id": "p1",
+          "title": "Real-Time Gaussian Splatting SLAM",
+          "arxiv_id": "2604.10001"
+        },
+        {
+          "paper_id": "p2",
+          "title": "Visual Odometry with Foundation Models",
+          "arxiv_id": "2604.10002"
+        },
+        {
+          "paper_id": "p3",
+          "title": "Loop Closure for Dense Maps",
+          "arxiv_id": "2604.10003"
+        },
+        {
+          "paper_id": "p4",
+          "title": "Collaborative Mapping at Scale",
+          "arxiv_id": "2604.10004"
+        }
+      ],
+      "matched_history": {
+        "run_id": "2026-04-17_slam",
+        "community_id": "H0",
+        "similarity": 0.671482,
+        "size": 2
+      },
+      "growth_7d": 1.0,
+      "novelty_score": 0.328518,
+      "bridge_pressure": 0.102867,
+      "recency_score": 0.964286,
+      "emergence_score": 0.615557,
+      "label": "emerging",
+      "explanation": "Community C0 changed by 100.0% versus its closest historical match; matched H0 from 2026-04-17_slam with similarity 0.671482. Novelty=0.33, bridge_pressure=0.10, emergence_score=0.62."
+    },
+    {
+      "community_id": "C1",
+      "size": 3,
+      "lifecycle_event": "merge",
+      "lifecycle_evidence": "C1 resembles 3 historical communities, suggesting a merge.",
+      "top_categories": [
+        {
+          "category": "cs.RO",
+          "count": 2
+        },
+        {
+          "category": "cs.AI",
+          "count": 1
+        }
+      ],
+      "representative_papers": [
+        {
+          "paper_id": "p5",
+          "title": "Robotic Skill Learning with SLAM",
+          "arxiv_id": "2604.10005"
+        },
+        {
+          "paper_id": "p6",
+          "title": "Embodied Navigation from Maps",
+          "arxiv_id": "2604.10006"
+        },
+        {
+          "paper_id": "p7",
+          "title": "Semantic Mapping for Robots",
+          "arxiv_id": "2604.10007"
+        }
+      ],
+      "matched_history": {
+        "run_id": "2026-04-17_slam",
+        "community_id": "H1",
+        "similarity": 1.0,
+        "size": 3
+      },
+      "growth_7d": 0.0,
+      "novelty_score": 0.0,
+      "bridge_pressure": 0.244726,
+      "recency_score": 0.97619,
+      "emergence_score": 0.226564,
+      "label": "stable",
+      "explanation": "Community C1 changed by 0.0% versus its closest historical match; matched H1 from 2026-04-17_slam with similarity 1.0. Novelty=0.00, bridge_pressure=0.24, emergence_score=0.23."
+    }
+  ],
+  "lifecycle_summary": {
+    "birth": 1,
+    "merge": 2
+  },
+  "category_trends": [
+    {
+      "category": "cs.RO",
+      "current_count": 5,
+      "history_avg_count": 3.0,
+      "delta": 2.0,
+      "growth": 0.666667
+    },
+    {
+      "category": "cs.LG",
+      "current_count": 2,
+      "history_avg_count": 0.0,
+      "delta": 2.0,
+      "growth": null
+    },
+    {
+      "category": "q-bio.BM",
+      "current_count": 1,
+      "history_avg_count": 0.0,
+      "delta": 1.0,
+      "growth": null
+    },
+    {
+      "category": "cs.AI",
+      "current_count": 1,
+      "history_avg_count": 0.5,
+      "delta": 0.5,
+      "growth": 1.0
+    },
+    {
+      "category": "cs.CV",
+      "current_count": 1,
+      "history_avg_count": 1.0,
+      "delta": 0.0,
+      "growth": 0.0
+    }
+  ],
+  "bridge_author_trends": [
+    {
+      "author": "alice chen",
+      "current_bridging_score": 0.31,
+      "history_avg_bridging_score": 0.18,
+      "delta": 0.13,
+      "betweenness": 0.42,
+      "cross_community_edge_ratio": 0.6
+    }
+  ],
+  "alerts": [
+    {
+      "type": "rising_category",
+      "category": "cs.RO",
+      "message": "Category cs.RO rose by 66.7% versus history."
+    },
+    {
+      "type": "rising_bridge_author",
+      "author": "alice chen",
+      "message": "Bridge author alice chen increased bridging score by 0.13."
+    }
+  ],
+  "metrics": {
+    "current_community_count": 3,
+    "history_snapshot_count": 2,
+    "history_community_count": 4,
+    "matched_community_count": 2,
+    "mean_emergence_score": 0.490921,
+    "alert_count": 2
+  },
+  "warnings": [],
+  "artifacts": {
+    "community_emergence_scores_png": "outputs/demo/artifacts/community_emergence_scores.png",
+    "category_growth_png": "outputs/demo/artifacts/category_growth.png",
+    "bridge_author_delta_png": "outputs/demo/artifacts/bridge_author_delta.png"
+  }
+}

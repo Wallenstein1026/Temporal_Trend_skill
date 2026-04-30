@@ -1,0 +1,14 @@
+{
+  "run_id": "2026-04-18_slam",
+  "papers_metadata": [
+    {"paper_id": "p1", "arxiv_id": "2604.10001", "title": "Real-Time Gaussian Splatting SLAM", "authors": ["A"], "categories": ["cs.RO"], "published_at": "2026-04-18"},
+    {"paper_id": "p2", "arxiv_id": "2604.10002", "title": "Visual Odometry with Foundation Models", "authors": ["B"], "categories": ["cs.CV"], "published_at": "2026-04-18"},
+    {"paper_id": "p3", "arxiv_id": "2604.10003", "title": "Loop Closure for Dense Maps", "authors": ["C"], "categories": ["cs.RO"], "published_at": "2026-04-17"},
+    {"paper_id": "p4", "arxiv_id": "2604.10004", "title": "Collaborative Mapping at Scale", "authors": ["D"], "categories": ["cs.RO"], "published_at": "2026-04-17"},
+    {"paper_id": "p5", "arxiv_id": "2604.10005", "title": "Robotic Skill Learning with SLAM", "authors": ["E"], "categories": ["cs.RO", "cs.AI"], "published_at": "2026-04-18"},
+    {"paper_id": "p6", "arxiv_id": "2604.10006", "title": "Embodied Navigation from Maps", "authors": ["F"], "categories": ["cs.AI"], "published_at": "2026-04-18"},
+    {"paper_id": "p7", "arxiv_id": "2604.10007", "title": "Semantic Mapping for Robots", "authors": ["G"], "categories": ["cs.RO"], "published_at": "2026-04-17"},
+    {"paper_id": "p8", "arxiv_id": "2604.10008", "title": "Graph Diffusion for Protein Design", "authors": ["H"], "categories": ["cs.LG", "q-bio.BM"], "published_at": "2026-04-18"},
+    {"paper_id": "p9", "arxiv_id": "2604.10009", "title": "Molecular Representation Learning", "authors": ["I"], "categories": ["cs.LG"], "published_at": "2026-04-18"}
+  ]
+}

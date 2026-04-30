@@ -1,0 +1,206 @@
+{
+  "run_id": "2026-04-18_slam",
+  "network_stats": {
+    "paper_similarity": {
+      "n_nodes": 9,
+      "n_edges": 9,
+      "density": 0.25,
+      "n_connected_components": 3,
+      "avg_degree": 2.0
+    }
+  },
+  "communities": {
+    "paper_similarity": {
+      "louvain": {
+        "assignments": {
+          "p1": 0,
+          "p2": 0,
+          "p3": 0,
+          "p4": 0,
+          "p5": 1,
+          "p6": 1,
+          "p7": 1,
+          "p8": 2,
+          "p9": 2
+        },
+        "n_communities": 3,
+        "modularity": 0.42
+      }
+    }
+  },
+  "paper_sim_edges": [
+    {
+      "source": "p1",
+      "target": "p2",
+      "weight": 0.91
+    },
+    {
+      "source": "p2",
+      "target": "p3",
+      "weight": 0.88
+    },
+    {
+      "source": "p3",
+      "target": "p4",
+      "weight": 0.87
+    },
+    {
+      "source": "p4",
+      "target": "p5",
+      "weight": 0.61
+    },
+    {
+      "source": "p5",
+      "target": "p6",
+      "weight": 0.9
+    },
+    {
+      "source": "p6",
+      "target": "p7",
+      "weight": 0.89
+    },
+    {
+      "source": "p7",
+      "target": "p8",
+      "weight": 0.55
+    },
+    {
+      "source": "p8",
+      "target": "p9",
+      "weight": 0.93
+    }
+  ],
+  "emerging_communities": [
+    {
+      "community_id": "C0",
+      "size": 4,
+      "top_categories": [
+        {
+          "category": "cs.RO",
+          "count": 3
+        },
+        {
+          "category": "cs.CV",
+          "count": 1
+        }
+      ],
+      "representative_papers": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "avg_published_at": "2026-04-18",
+      "growth_7d": 1.0,
+      "novelty_score": 0.328518,
+      "bridge_pressure": 0.102867,
+      "recency_score": 0.964286,
+      "emergence_score": 0.615557,
+      "lifecycle_event": "merge",
+      "lifecycle_evidence": "C0 resembles 2 historical communities, suggesting a merge.",
+      "trend_label": "emerging"
+    },
+    {
+      "community_id": "C1",
+      "size": 3,
+      "top_categories": [
+        {
+          "category": "cs.RO",
+          "count": 2
+        },
+        {
+          "category": "cs.AI",
+          "count": 1
+        }
+      ],
+      "representative_papers": [
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "avg_published_at": "2026-04-18",
+      "growth_7d": 0.0,
+      "novelty_score": 0.0,
+      "bridge_pressure": 0.244726,
+      "recency_score": 0.97619,
+      "emergence_score": 0.226564,
+      "lifecycle_event": "stable",
+      "lifecycle_evidence": "C1 remains close to historical community H1.",
+      "trend_label": "stable"
+    },
+    {
+      "community_id": "C2",
+      "size": 2,
+      "top_categories": [
+        {
+          "category": "cs.LG",
+          "count": 2
+        },
+        {
+          "category": "q-bio.BM",
+          "count": 1
+        }
+      ],
+      "representative_papers": [
+        "p8",
+        "p9"
+      ],
+      "avg_published_at": "2026-04-18",
+      "growth_7d": null,
+      "novelty_score": 1.0,
+      "bridge_pressure": 0.228216,
+      "recency_score": 0.85,
+      "emergence_score": 0.630643,
+      "lifecycle_event": "birth",
+      "lifecycle_evidence": "No sufficiently similar historical community was found for C2.",
+      "trend_label": "emerging"
+    }
+  ],
+  "top_bridges": [
+    {
+      "name_norm": "alice chen",
+      "bridging_score": 0.31,
+      "betweenness": 0.42,
+      "cross_community_edge_ratio": 0.6,
+      "representative_papers": [
+        "p4",
+        "p5"
+      ]
+    }
+  ],
+  "warnings": [],
+  "temporal_trends": {
+    "run_id": "2026-04-18_slam",
+    "window_days": 7,
+    "lifecycle_summary": {
+      "birth": 1,
+      "merge": 1,
+      "stable": 1
+    },
+    "alerts": [
+      {
+        "type": "rising_category",
+        "category": "cs.RO",
+        "message": "Category cs.RO rose by 66.7% versus history."
+      },
+      {
+        "type": "rising_bridge_author",
+        "author": "alice chen",
+        "message": "Bridge author alice chen increased bridging score by 0.13."
+      }
+    ],
+    "artifacts": {
+      "community_emergence_scores_png": "outputs/demo2/artifacts/community_emergence_scores.png",
+      "category_growth_png": "outputs/demo2/artifacts/category_growth.png",
+      "bridge_author_delta_png": "outputs/demo2/artifacts/bridge_author_delta.png"
+    },
+    "metrics": {
+      "current_community_count": 3,
+      "history_snapshot_count": 2,
+      "history_community_count": 4,
+      "matched_community_count": 2,
+      "mean_emergence_score": 0.490921,
+      "alert_count": 2
+    }
+  }
+}
